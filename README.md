@@ -1,11 +1,11 @@
 # Git-Cheat
 ### Basic Commands
-```rm -rf <directory name>: removes non-empty directory.
+`rm -rf <directory name>`: removes non-empty directory.
 `HEAD:` is a pointer that refers to the tip of the current checked out branch
-git status:
-git diff: shows differences between file changes; difference between repository and the working directory.
+`git status`:
+`git diff`: shows differences between file changes; difference between repository and the working directory.
 
-```
+
 ### Add and Commit in One Step
 `git commit -am 'message'`: passes staging process; works well for modifications, not new or untracked files.
 
