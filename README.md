@@ -7,14 +7,12 @@ git diff: shows differences between file changes; difference between repository 
 
 ```
 ### Add and Commit in One Step
-```
-git commit -am 'message': passes staging process; works well for modifications, not new or untracked files.
-```
+'git commit -am 'message'': passes staging process; works well for modifications, not new or untracked files.
 
 
-### Branching
+### Branching: 
 ```
-  -allow to try new ideas on branch without changing master branch
+Allows to try new ideas on branch without changing master branch
 cat .git/HEAD: 
 ls -la .git/refs/heads:
 git branch new_branch: creates new branch; this branch has all the stuff master contains.
