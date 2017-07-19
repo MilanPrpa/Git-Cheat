@@ -10,9 +10,10 @@ git diff: shows differences between file changes; difference between repository 
 ```
 git commit -am 'message': passes staging process; works well for modifications, not new or untracked files.
 ```
-**CHAP 7**
 
-**CHAP 10 BRANCHING**
+
+### Branching
+```
   -allow to try new ideas on branch without changing master branch
 cat .git/HEAD: 
 ls -la .git/refs/heads:
@@ -30,5 +31,5 @@ git branch --merged: shows what branches have merged changes
 git -m <old name> <new name>: renames branches
 ** Delete Branch **
 git branch -d <name of branch to delete>:
-
+```
 **CHAP 11 MERGING**
