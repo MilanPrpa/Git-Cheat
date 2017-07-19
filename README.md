@@ -7,7 +7,7 @@ git diff: shows differences between file changes; difference between repository 
 
 ```
 ### Add and Commit in One Step
-'git commit -am 'message'': passes staging process; works well for modifications, not new or untracked files.
+`git commit -am 'message'`: passes staging process; works well for modifications, not new or untracked files.
 
 
 ### Branching: 
