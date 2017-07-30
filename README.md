@@ -54,6 +54,29 @@ Allows to try new ideas on branch without changing master branch
   a. abort option `git merge --abort`:
 5. `git log --graph --oneline --all --decorate`: graph of all branches and merges
 
+### Remotes
+
+1. Create repo in GitHub w/out Readme.
+
+2. `git remote add origin <url>`: adds GitHub
+
+3. `git remote -v`
+   `cat .git/config`:
+   `git remote rm origin`: removes remote
+   
+4. `git push -u origin master`: push up to github
+
+### Clone Remote Repository: brings remote repository to my machine.
+1. `git clone <remote url>`:
+
+### Tracking remote branches
+`cat .git/config`:
+
+### Pushing changes to remote repo
+
+
+
+
 
 
 
