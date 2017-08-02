@@ -70,11 +70,16 @@ Allows to try new ideas on branch without changing master branch
 1. `git clone <remote url>`:
 
 ### Tracking remote branches
+
 `cat .git/config`:
 
 ### Pushing changes to remote repo
 `git push`: able to do this because this branch is tracked using -u
+
 `git log --oneline origin/master`: will show the push
+
+### Fetching changes to a remote repo
+
 
 
 
